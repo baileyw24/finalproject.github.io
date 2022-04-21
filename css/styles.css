@@ -1,6 +1,6 @@
 .site-container {
     display: grid;
-    grid-template-rows: 2fr 4fr 2fr;
+    grid-template-rows: 0.5fr 4fr 0.5fr;
     font-family: 'Oswald';
 }
 
@@ -122,12 +122,35 @@
     margin: 0 auto;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4rem;
+    color: #00559F
+}
+
 h4 {
     font-family: 'Oswald', sans-serif;
     font-size: 1.5rem;
     color: #00559F
 }
 
+.card-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    color: #00559F
+}
+
+.card-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    color: #00559F
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 20px;
+    margin: 1rem;
+}
 @media only screen and (max-width: 992px) {
     .logo {
         display: none;
