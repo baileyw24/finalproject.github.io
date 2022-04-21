@@ -35,12 +35,12 @@
 }
 
 .nav-item a:hover, .nav-item a:focus {
-    box-shadow: 5px 5px #68BBE3, 6px 6px #68BBE3, 7px 7px #68BBE3;
+    box-shadow: 5px 5px #AFBD20, 6px 6px #AFBD20, 7px 7px #AFBD20;
     transform: translateY(-3px);
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
-    box-shadow: 5px 5px #68BBE3, 6px 6px #68BBE3, 7px 7px #68BBE3;
+    box-shadow: 5px 5px #AFBD20, 6px 6px #AFBD20, 7px 7px #AFBD20;
     transform: translateY(-3px);
 }
 
@@ -91,12 +91,12 @@
 }
 
 .footer-button {
-    background-color: #BB4430;
+    background-color: #AFBD20;
     color: #FFFDFF;
     border-color: #FFFFFF;
     border-radius: 10px;
     margin-top: 25px;
-    width: 180px;
+    width: 140px;
     height: 40px;
     transition: all 350ms ease;
     font-weight: bold;
@@ -109,6 +109,12 @@
 
 .page-header {
     margin: 0 auto;
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    color: #00559F
 }
 
 @media only screen and (max-width: 992px) {
