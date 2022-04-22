@@ -1,6 +1,6 @@
 .site-container {
     display: grid;
-    grid-template-rows: 0.5fr 6fr 0.5fr;
+    grid-template-rows: 0.3fr 6fr 0.3fr fit-content;
     font-family: 'Oswald';
 }
 
@@ -84,6 +84,7 @@
     font-size: 24px;
     font-weight: bold;
     color:#FFFFFF;
+    font-family: 'Oswald';
 }
 
 .footer-icons {
@@ -111,6 +112,7 @@
     height: 40px;
     transition: all 350ms ease;
     font-weight: bold;
+    font-family: 'Oswald';
 }
 
 .footer-button:hover, .footer-button:focus {
@@ -125,13 +127,13 @@
 h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 4rem;
-    color: #00559F
+    color: #00559F;
 }
 
 h4 {
     font-family: 'Oswald', sans-serif;
     font-size: 1.5rem;
-    color: #00559F
+    color: #00559F;
 }
 
 .row {
@@ -141,13 +143,13 @@ h4 {
 .card-title {
     font-family: 'Oswald', sans-serif;
     font-size: 1.5rem;
-    color: #00559F
+    color: #00559F;
 }
 
 .card-text {
     font-family: 'Oswald', sans-serif;
     font-size: 1.25rem;
-    color: #00559F
+    color: #00559F;
 }
 
 .card {
@@ -155,9 +157,278 @@ h4 {
     border-radius: 20px;
     margin: 1rem;
 }
+
+.students-image {
+    display: flex;
+    margin: 0 auto;   
+}
+
+.students-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.student-image-1 {
+    width: 210.5px;
+    height: 225.13px;
+}
+
+.student-image-2 {
+    width: 195.81px;
+    height: 213.96px;
+}
+
+.student-image-3 {
+    width: 210.5px;
+    height:213.96px;
+}
+
+.image-quote {
+    color:#00559F;
+    font-size: 24px;
+    text-align: center;
+}
+
+.student-options {
+    display: flex;
+    align-items: baseline;
+}
+
+.option {
+    color: #00559F;
+    text-decoration: underline;
+}
+
+.flex-option1 {
+    display: flex;
+    padding-left: 100px;
+    padding-top: 20px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.flex-option2 {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.flex-option3 {
+    display: flex;
+    padding-right: 100px;
+    padding-top: 20px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.option-text {
+    color:#00559F;
+}
+.youtube-video {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.option-button {
+    color: black;
+    background-color: #68BBE3;
+    border-color: black;
+    border-radius: 8px;
+    width: 140px;
+    height: 40px;
+    transition: all 350ms ease;
+    font-size: 20px;
+    font-family: 'Oswald';
+    box-shadow: 0px 2px #000000;
+    margin: 0 auto;
+}
+
+.option-button:hover, .option-button:focus {
+    transform: scale(1.1);
+    background-color: #00559F;
+    color: #FFFDFF;
+}
+
+.can-do-buttons {
+    display: flex;
+    margin: 0 auto;
+}
+
+.student-icons {
+    display: flex;
+}
+
+.facebook-icon {
+    width: 85px;
+    height: 85px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.twitter-icon {
+    width: 85px;
+    height: 85px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.instagram-icon {
+    width: 85px;
+    height: 85px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.spotify-icon {
+    width: 85px;
+    height: 85px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.slack-icon {
+    width: 85px;
+    height: 85px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.youtube-icon {
+    width: 85px;
+    height: 85px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.follow-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.follow-text {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 992px) {
     .logo {
         display: none;
         visibility: hidden;
+    }
+
+    .page-header {
+        font-size: 6vw;
+    }
+
+    .student-image-1 {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .student-image-2 {
+        width: 130px;
+        height: 150px;
+    }
+    
+    .student-image-3 {
+        width: 140px;
+        height: 140px;
+    }
+
+    .image-quote {
+        font-size: 3vw;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .student-options {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .flex-option1 {
+        padding: 0;
+        margin: 0 auto;
+        max-width: 90%;
+    }
+
+    .flex-option2 {
+        padding: 0;
+        margin: 0 auto;
+        padding-top: 20px;
+        max-width: 85%;
+    }
+
+    .flex-option3 {
+        padding: 0;
+        margin: 0 auto;
+        padding-top: 20px;
+        max-width: 85%;
+    }
+
+
+    .option-text {
+        font-size: 3vw;
+    }
+
+    .can-do-buttons {
+        display: flex;
+    }
+
+    .youtube-video {
+        max-width: 90%;
+    }
+
+    .facebook-icon {
+        width: 75px;
+        height: 75px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+    .twitter-icon {
+        width: 75px;
+        height: 75px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+    .instagram-icon {
+        width: 75px;
+        height: 75px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+    .spotify-icon {
+        width: 75px;
+        height: 75px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+    .slack-icon {
+        width: 75px;
+        height: 75px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+    .youtube-icon {
+        width: 75px;
+        height: 75px;
+        margin-left: 8px;
+        margin-right: 8px;
     }
 }
