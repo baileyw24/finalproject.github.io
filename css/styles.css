@@ -266,6 +266,26 @@ h4 {
     color: black;
 }
 
+.home-button {
+    color: white;
+    background-color: #00559F;
+    border-color: black;
+    border-radius: 8px;
+    width: 140px;
+    height: 40px;
+    transition: all 350ms ease;
+    font-size: 20px;
+    font-family: 'Oswald';
+    box-shadow: 0px 2px #000000;
+    margin: 0 auto;
+}
+
+.home-button:hover, .home-button:focus {
+    transform: scale(1.1);
+    background-color: #AFBD20;
+    color: black;
+}
+
 .can-do-buttons {
     display: flex;
     margin: 0 auto;
