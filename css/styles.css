@@ -66,6 +66,12 @@
     padding: 3rem;
 }
 
+.team-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 .footer-row {
     grid-row: 3/4;
     display: flex;
@@ -237,8 +243,8 @@ h4 {
 }
 
 .option-button {
-    color: black;
-    background-color: #68BBE3;
+    color: white;
+    background-color: #00559F;
     border-color: black;
     border-radius: 8px;
     width: 140px;
@@ -252,8 +258,8 @@ h4 {
 
 .option-button:hover, .option-button:focus {
     transform: scale(1.1);
-    background-color: #00559F;
-    color: #FFFDFF;
+    background-color: #AFBD20;
+    color: black;
 }
 
 .can-do-buttons {
