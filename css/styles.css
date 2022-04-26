@@ -72,6 +72,10 @@
     flex-direction: row;
 }
 
+.card {
+    width: 30%;
+}
+
 .footer-row {
     grid-row: 3/4;
     display: flex;
@@ -436,5 +440,9 @@ h4 {
         height: 75px;
         margin-left: 8px;
         margin-right: 8px;
+    }
+
+    .card {
+        width: 100%;
     }
 }
