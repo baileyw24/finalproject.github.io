@@ -66,14 +66,15 @@
     padding: 3rem;
 }
 
+.card {
+    width: 20%;
+}
+
 .team-content {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-}
-
-.card {
-    width: 30%;
+    justify-content: center;
 }
 
 .footer-row {
@@ -138,11 +139,18 @@ h1 {
     font-family: 'Oswald', sans-serif;
     font-size: 4rem;
     color: #00559F;
+    text-decoration: underline dotted #00559F;
+}
+
+h3 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+        color: #00559F;
 }
 
 h4 {
     font-family: 'Oswald', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #00559F;
 }
 
@@ -152,20 +160,43 @@ h4 {
 
 .card-title {
     font-family: 'Oswald', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #00559F;
+}
+
+.card-title-2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6rem;
+    color: #00559F;
+    font-style: italic;
+    text-decoration: underline dotted #00559F;
 }
 
 .card-text {
     font-family: 'Oswald', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     color: #00559F;
+    display: flex;
+    justify-content: center;
 }
 
 .card {
     padding: 1rem;
     border-radius: 20px;
     margin: 1rem;
+    border-color: #00559F;
+    border-width: 0.25rem;
+    height:auto;
+}
+
+.card:hover {
+    border-color: #AFBD20;
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    object-fit:scale-down;
+    max-height: 50%;
 }
 
 .students-image {
@@ -463,6 +494,6 @@ h4 {
     }
 
     .card {
-        width: 100%;
+        width: 40%;
     }
 }
