@@ -133,6 +133,7 @@
 
 .page-header {
     margin: 0 auto;
+    padding-bottom: 30px;
 }
 
 h1 {
@@ -229,6 +230,10 @@ h4 {
     color:#00559F;
     font-size: 24px;
     text-align: center;
+    padding-top: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .student-options {
@@ -271,10 +276,13 @@ h4 {
 
 .option-text {
     color:#00559F;
+    margin: 5px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
 }
 .youtube-video {
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .option-button {
@@ -407,9 +415,12 @@ h4 {
     }
 
     .image-quote {
-        font-size: 3vw;
+        font-size: 3.3vw;
         padding-left: 10%;
         padding-right: 10%;
+        margin-bottom: 40px;
+        margin-top: 10px;
+        max-width: 95%;
     }
 
     .student-options {
@@ -422,6 +433,7 @@ h4 {
         padding: 0;
         margin: 0 auto;
         max-width: 90%;
+        margin-bottom: 20px;
     }
 
     .flex-option2 {
@@ -429,6 +441,7 @@ h4 {
         margin: 0 auto;
         padding-top: 20px;
         max-width: 85%;
+        margin-bottom: 20px;
     }
 
     .flex-option3 {
@@ -440,7 +453,7 @@ h4 {
 
 
     .option-text {
-        font-size: 3vw;
+        font-size: 3.2vw;
     }
 
     .can-do-buttons {
@@ -456,6 +469,7 @@ h4 {
         height: 75px;
         margin-left: 8px;
         margin-right: 8px;
+        margin-top: 10px;
     }
     
     .twitter-icon {
@@ -463,6 +477,7 @@ h4 {
         height: 75px;
         margin-left: 8px;
         margin-right: 8px;
+        margin-top: 10px;
     }
     
     .instagram-icon {
@@ -470,6 +485,7 @@ h4 {
         height: 75px;
         margin-left: 8px;
         margin-right: 8px;
+        margin-top: 10px;
     }
     
     .spotify-icon {
@@ -477,6 +493,7 @@ h4 {
         height: 75px;
         margin-left: 8px;
         margin-right: 8px;
+        margin-top: 10px;
     }
     
     .slack-icon {
@@ -484,6 +501,7 @@ h4 {
         height: 75px;
         margin-left: 8px;
         margin-right: 8px;
+        margin-top: 10px;
     }
     
     .youtube-icon {
@@ -491,6 +509,7 @@ h4 {
         height: 75px;
         margin-left: 8px;
         margin-right: 8px;
+        margin-top: 10px;
     }
 
     .card {
