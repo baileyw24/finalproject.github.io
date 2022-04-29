@@ -462,6 +462,7 @@ h4 {
 .follow-text {
     text-decoration: underline;
     font-weight: bold;
+    text-align: center;
 }
 
 /*resources styling*/
