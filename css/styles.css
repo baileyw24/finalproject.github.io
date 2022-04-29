@@ -657,4 +657,48 @@ p {
     width: 100%;
     height: auto;
 }
+    /* community page styling */
+.community-actions-options{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+.community-header{
+    font-size: 6vw;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+.bold-font{
+    font-weight: bold;
+    font-size: 4.6vw;
+}
+.community-text{
+    font-size: 3.2vw;
+}
+.community-text-heading{
+    font-size: 4.4vw;
+}
+.donateFundraiseSection{
+    display:flex;
+    flex-direction: column;
+    padding: 2%;
+}
+.howCanYouHelpSection {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+.contactATeamMemberSection{
+    display: flex;
+    flex-direction: column;
+    padding: 2%; 
+}
+.c-buttons-contact-social{
+    display: flex;
+    align-items: baseline;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
 }
