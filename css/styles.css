@@ -610,6 +610,15 @@ h5 {
     padding: 2%;
 }
 
+.img-properties{
+   display: block;
+   margin-left: auto;
+   margin-right:auto;
+   width: 60%;
+   height: 45%;
+   padding: 2%;
+}
+
 .contactATeamMemberSection{
     display: flex;
     flex-direction: column;
@@ -818,6 +827,14 @@ h5 {
     flex-direction: column;
     padding: 2%;
 }
+.img-properties{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+    height: 50%;
+    padding: 2%;
+ }
 .contactATeamMemberSection{
     display: flex;
     flex-direction: column;
