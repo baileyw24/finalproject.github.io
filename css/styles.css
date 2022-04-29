@@ -480,6 +480,7 @@ h4 {
 }
 
 .unc-resources-row {
+    display: flex;
     max-height: fit-content;
     text-align: center;
     justify-content: center;
@@ -492,6 +493,11 @@ h4 {
     border-radius: 15px;
     text-align: center;
     margin: 1em;
+}
+
+.resources-box {
+    display: flex;
+    max-width: 30vw;
 }
 
 .resource-card-img-1 {
@@ -527,7 +533,7 @@ h4 {
 }
 
 .add-resources-row {
-    max-height: fit-content;
+    display: flex;
     text-align: center;
     justify-content: center;
     margin-top: 2em;
