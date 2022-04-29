@@ -565,15 +565,13 @@ h5 {
     font-size: 4.3vw;
     text-decoration: underline;
     text-decoration-style: dotted;
+    padding: 2%;
 }
 .community-text{
     color:#00559F;
     margin: 5px;
     margin-bottom: 20px;
     font-size: 1.7vw;
-}
-.black-font{
-    color:#000000
 }
 
 .bold-font{
@@ -598,6 +596,7 @@ h5 {
     width: 140px;
     height: 40px;
     font-size: 20px;
+    transition: all 350ms ease;
 }
 
 .button-community:hover, .button-community:focus{
@@ -796,7 +795,7 @@ h5 {
     width: 100%;
     height: auto;
 }
-    /* community page styling */
+        /* community page styling */
 .community-actions-options{
     display: flex;
     flex-direction: column;
@@ -807,6 +806,7 @@ h5 {
     font-size: 6vw;
     text-decoration: underline;
     text-decoration-style: dotted;
+    padding: 2%;
 }
 .bold-font{
     font-weight: bold;
