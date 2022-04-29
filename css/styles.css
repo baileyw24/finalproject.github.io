@@ -100,7 +100,7 @@
     background-color: #AFBD20;;
   }
 
-  .container:hover .overlay {
+  .container:hover, .container:focus .overlay {
     opacity: 1;
   }
 .card {
@@ -130,7 +130,7 @@
     align-items: center;
 }
 
-.gallery-content:hover .overlay{
+.gallery-content:hover, .gallery-content:focus .overlay{
     opacity: 1;
 }
 
@@ -264,7 +264,7 @@ h4 {
     height:auto;
 }
 
-.card:hover {
+.card:hover, .card:focus {
     border-color: #AFBD20;
     transform: scale(1.05);
     transition: 0.7s;
@@ -521,7 +521,7 @@ h4 {
     color: #00559F;
 }
 
-.source-link:hover {
+.source-link:hover, .source-link:focus {
     color:#AFBD20;
 }
 
