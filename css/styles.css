@@ -498,6 +498,7 @@ h4 {
     text-align: center;
 }
 
+
 /*resources styling*/
 .resource-header {
     margin: 0 auto;
@@ -520,8 +521,8 @@ h4 {
 
 .unc-resource-card {
     padding: 2em;
-    border: 10px solid #00559F;
-    border-radius: 15px;
+    border: .25rem solid #00559F;
+    border-radius: 20px;
     text-align: center;
     margin: .75em;
     margin-top: 0;
@@ -530,7 +531,7 @@ h4 {
 }
 
 .unc-resource-card:hover, .unc-resource-card:focus, .unc-resource-card:active, .add-resource-card:hover, .add-resource-card:focus, .add-resource-card:active {
-    border: 10px solid #AFBD20;
+    border: 5px solid #AFBD20;
     transform: scale(1.05);
     transition: 0.7s;
 }
@@ -572,8 +573,8 @@ h4 {
 
 .add-resource-card {
     padding: 2em;
-    border: 10px solid #00559F;
-    border-radius: 15px;
+    border: .25rem solid #00559F;
+    border-radius: 20px;
     text-align: center;
     margin: .75em;
     margin-top: 0;
