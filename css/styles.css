@@ -506,19 +506,15 @@ h4 {
 }
 
 .unc-resources {
-    max-width: 100vw;
-    max-height: fit-content;
+    width: 100vw;
     text-align: center;
     justify-content: center;
     margin-top: 2em;
 }
 
-.unc-resources-row {
-    display: flex;
-    max-height: fit-content;
-    text-align: center;
-    justify-content: center;
-    margin-top: 5em;
+.unc-resources-box {
+    display: inline-block;
+    margin-top: 2em;
 }
 
 .resource-card {
@@ -526,12 +522,15 @@ h4 {
     border: 10px solid #00559F;
     border-radius: 15px;
     text-align: center;
-    margin: 1em;
+    margin: .75em;
+    margin-top: 0;
+    flex-grow: 1 auto;
 }
 
-.resources-box {
-    display: flex;
-    max-width: 30vw;
+.resource-card:hover, .resource-card:focus, .resource-card:active {
+    border: 10px solid #AFBD20;
+    transform: scale(1.05);
+    transition: 0.7s;
 }
 
 .resource-card-img-1 {
@@ -541,38 +540,32 @@ h4 {
 }
 
 .resource-card-img-2 {
-    max-width: 30%;
+    max-width: 80%;
     margin-bottom: 2em;
 }
 
-.col-sm-12, .col-lg-3, .col-lg-5 {
-    display: inline-block;
-}
-
-.source-link:focus {
+.source-link {
     font-family: 'Oswald', sans-serif;
     color: #00559F;
 }
 
-.source-link:hover {
+.source-link:hover, .source-link:focus, .source-link:active {
     color:#AFBD20;
 }
 
 .add-resources {
-    max-width: 100vw;
-    max-height: fit-content;
+    width: 100vw;
     text-align: center;
     justify-content: center;
     margin-top: 5em;
+    margin-bottom: 3em;
 }
 
-.add-resources-row {
-    display: flex;
-    text-align: center;
-    justify-content: center;
+.add-resources-box {
+    display: inline-block;
     margin-top: 2em;
-    margin-bottom: 5em;
 }
+
 
 p {
     font-family: 'Oswald', sans-serif;
@@ -580,10 +573,23 @@ p {
     color: #00559F;
 }
 
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    color: #00559F;
+}
+
 h5 {
     font-family: 'Oswald', sans-serif;
     font-size: 1.5rem;
     color: #00559F;
+}
+
+ul {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.25rem;
+    color: #00559F;
+    list-style-position: inside;
 }
 
 
@@ -881,4 +887,38 @@ h5 {
     margin-bottom: 30px;
     justify-content: center;
 }
+}
+
+
+/*resources media queries*/
+@media only screen and (min-width: 992px) {
+    .unc-resources-box {
+        width: 30%;
+    }
+
+    .add-resources-box {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .unc-resources {
+        margin: 1em;
+        width: 100%;
+    }
+    
+    .unc-resources-box {
+        padding: 2em;
+        width: 90%;
+    }
+
+    .add-resources {
+        margin: 1em;
+        width: 100%;
+    }
+
+    .add-resources-box {
+        padding: 2em;
+        width: 90%;
+    }
 }
