@@ -566,6 +566,7 @@ h4 {
 .add-resources-row {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     margin-top: 2em;
 }
 
@@ -577,7 +578,7 @@ h4 {
     margin: .75em;
     margin-top: 0;
     align-self: normal;
-    width: 50%;
+    width: 45%;
 }
 
 
