@@ -512,22 +512,24 @@ h4 {
     margin-top: 2em;
 }
 
-.unc-resources-box {
-    display: inline-block;
+.unc-resources-row {
+    display: flex;
+    justify-content: space-evenly;
     margin-top: 2em;
 }
 
-.resource-card {
+.unc-resource-card {
     padding: 2em;
     border: 10px solid #00559F;
     border-radius: 15px;
     text-align: center;
     margin: .75em;
     margin-top: 0;
-    flex-grow: 1 auto;
+    align-self: normal;
+    width: 30%;
 }
 
-.resource-card:hover, .resource-card:focus, .resource-card:active {
+.unc-resource-card:hover, .unc-resource-card:focus, .unc-resource-card:active, .add-resource-card:hover, .add-resource-card:focus, .add-resource-card:active {
     border: 10px solid #AFBD20;
     transform: scale(1.05);
     transition: 0.7s;
@@ -561,9 +563,21 @@ h4 {
     margin-bottom: 3em;
 }
 
-.add-resources-box {
-    display: inline-block;
+.add-resources-row {
+    display: flex;
+    align-items: center;
     margin-top: 2em;
+}
+
+.add-resource-card {
+    padding: 2em;
+    border: 10px solid #00559F;
+    border-radius: 15px;
+    text-align: center;
+    margin: .75em;
+    margin-top: 0;
+    align-self: normal;
+    width: 50%;
 }
 
 
@@ -892,33 +906,43 @@ ul {
 
 /*resources media queries*/
 @media only screen and (min-width: 992px) {
-    .unc-resources-box {
-        width: 30%;
+    .unc-resources-row {
+        max-width: 99%;
     }
 
-    .add-resources-box {
-        width: 45%;
+    .add-resources-row {
+        width: 99%;
     }
 }
 
 @media only screen and (max-width: 992px) {
     .unc-resources {
         margin: 1em;
-        width: 100%;
     }
     
-    .unc-resources-box {
+    .unc-resources-row {
+        display: block;
         padding: 2em;
         width: 90%;
+    }
+
+    .unc-resource-card {
+        width: 100%;
+        margin: 1em;
     }
 
     .add-resources {
         margin: 1em;
-        width: 100%;
     }
 
-    .add-resources-box {
+    .add-resources-row {
+        display: block;
         padding: 2em;
         width: 90%;
+    }
+
+    .add-resource-card {
+        width: 100%;
+        margin: 1em;
     }
 }
